@@ -1,0 +1,12 @@
+function nextInLine(arr, item) {
+arr.push(item);
+var removedElem = arr.shift();
+return removedElem;
+}
+var testArr = [1,2,3,4,5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+// Before: [1,2,3,4,5] :: removedElem:  1 :::  After; [2,3,4,5,6]  //
