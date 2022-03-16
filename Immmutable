@@ -1,0 +1,14 @@
+var myStr = "Jello World";
+
+// cannot replace value at index but //
+
+myStr = "Hello World";
+
+//bracket notation//
+
+var thirdLetterOfLastName = lastName[2];
+
+var lastLetterOfLastName = lastName[lastname.length -1];
+
+var secondToLastLetterOfLastName = lastName[lastName.length -2];
+
